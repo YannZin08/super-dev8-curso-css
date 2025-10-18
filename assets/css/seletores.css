@@ -1,0 +1,24 @@
+img {
+    width: 300px;
+}
+
+/* Id <elemento id#*/
+
+#the-office {
+    width: 100px;
+}
+
+#Breaking-Bad {
+    width: 150px;
+}
+
+#the-walking-dead {
+    width: 200px;
+}
+
+/* classe: é uma forma de compartilhar estilização entre elementos
+    <a class="imagens-mesmo-tamano">youtube</a> */
+
+.imagens-mesmo-tamanho{
+        width: 250px;
+}
