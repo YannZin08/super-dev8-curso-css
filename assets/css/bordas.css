@@ -1,5 +1,98 @@
-div {
+/*
+top => parte de cima
+right => direita
+bottom -> parte baixo
+left: => esquerda
+*/
+
+.borda-solid {
     border-top-style: solid;
     border-top-color: #000;
     border-top-width: 1px;
+
+    border-right-style: solid;
+    border-right-color: #000;
+    border-right-width: 1px;
+
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-bottom-width: 1px;
+
+    border-left: solid;
+    border-left-color: #000;
+    border-left-width: 1px;
+}
+
+.borda-dashed {
+   /* border-top-style: solid;
+    border-top-color #000;
+    border-top-width 1px; */
+
+    /* shorthand */
+    border-top: 8px solid #f59e0b;
+    border-right: 8px solid #f59e0b;
+    border-bottom: 8px solid #f59e0b;
+    border-left: 8px solid #f59e0b;
+}
+.demonstracao {
+    display: incline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    height: 100px;
+    margin: 6px;
+    padding: 8px;
+}
+.borda-dotted {
+    border-width: 6px 6px 6px 6px;
+    border-style: dotted dotted dotted dotted;
+    border-color: #ef4444 #ef4444 #ef4444 #ef4444 ;
+}
+.borda-double {
+    /* cima/baixo (6px), direita/esquerda (8px)*/
+    border-width: 6px 8px;
+    border-color: #7c3aed; /* cima/direita/baixo/esquerda*/
+    border-style: double;
+}
+.borda-groove {
+    border-width: 8px 8px 8px 8px;
+    border-color: #3b82f6;
+    border-style: groove;
+    border: 8px #3b82f6 groove;
+}   
+.borda-ridge {
+    border-width: 8px 8px 8px 8px;
+    border-color: #10b981 #10b981 #10b981 #10b981;
+    border-style: ridge;
+}
+.borda-inset {
+    border-width: 8px 8px 8px 8px;
+    border-color:  #ec4899 #ec4899 #ec4899 #ec4899;
+    border-style: inset;
+}
+.borda-outset {
+    border-width: 8px 8px 8px 8px;
+    border-color: #eab308 #eab308 #eab308 #eab308;
+    border-style: outset;
+    border-radius: 10px 15px 20px;
+}
+
+.borda-radius-diferente {
+  border: 8px #b8b195 solid;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 40px;  
+}
+.borda-radius-iguais {
+    border: 8px #12Ab23 dashed;
+    border-radius: 100px;
+}
+.borda-radius-diferente:hover {
+    border-color: #6e6a59;
+    cursor: pointer;
+}
+.borda-radius-iguais {
+    border: 4px #12Ab23 dashed;
+    border-radius: 100px;
 }
