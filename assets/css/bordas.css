@@ -35,7 +35,7 @@ left: => esquerda
     border-left: 8px solid #f59e0b;
 }
 .demonstracao {
-    display: incline-flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     min-width: 220px;
