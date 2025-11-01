@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: brown;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+    margin: 0;
+    padding: 0;
+    background-image: url('https://pm1.aminoapps.com/6440/295daba80098f1e9d54974aa715853fe0983294b_hq.jpg');
+}
+
+h1{
+     padding-top: 20 px;
+     padding-left: 500px;
+}
